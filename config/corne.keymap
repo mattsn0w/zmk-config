@@ -13,6 +13,15 @@
 &led_strip { chain-length = <54>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        shiftpipe {
+            bindings = <&none>;
+            key-positions = <35 11>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
