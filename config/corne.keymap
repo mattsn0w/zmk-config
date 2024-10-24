@@ -9,19 +9,11 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        shiftpipe {
-            bindings = <&none>;
-            key-positions = <35 11>;
-        };
-    };
 
     keymap {
-        compatible = "zmk,keymap";
+            compatible = "zmk,keymap";
 
-        default_layer {
+            default_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
