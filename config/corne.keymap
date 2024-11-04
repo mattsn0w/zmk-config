@@ -11,6 +11,14 @@
 
 / {
     behaviors {
+        rpi: rpi {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RPI";
+            #binding-cells = <2>;
+            require-prior-idle-ms = <125>;
+            tapping-term-ms = <200>;
+            bindings = <&mt>;
+        };
     };
 
     keymap {
